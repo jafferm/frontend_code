@@ -14,13 +14,13 @@
               "key": "0-0-0",
               "label": "clear_session",
               "title": "keras lib",
-              "link": "/clear"
+              "link": "/frontend_code/clear"
             },
             {
               "key": "0-0-1",
               "label": "function",
               "title": "keras lib",
-              "link": "https://jafferm.github.io/frontend_code/function"
+              "link": "/frontend_code/function"
             },
             {
               "key": "0-0-2",
