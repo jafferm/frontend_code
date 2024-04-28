@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App">
       
-      <BrowserRouter>
+      <BrowserRouter basename="/frontend_code">
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/clear" element={<Clear/>}/>
