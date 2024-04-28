@@ -51,8 +51,8 @@ function App() {
       
       <BrowserRouter basename="/frontend_code">
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/frontend_code/clear" element={<Clear/>}/>
+        <Route path="/frontend_code" element={<Home/>}/>
+        <Route path="/clear" element={<Clear/>}/>
         <Route path="/gradient" element={<Gradient/>}/>
         <Route path="/test" element={<Test/>}/>
         <Route path="/function" element={<Function/>}/> 
