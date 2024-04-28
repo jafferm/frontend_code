@@ -1,0 +1,14 @@
+.codemirror-container {
+    display: flex;
+  }
+  
+  .treeview-container {
+    width: 200px; /* Set the width of the TreeView container */
+    padding: 10px;
+  }
+  
+  .editor-container {
+    flex: 1; /* Take the remaining space in the layout */
+    padding: 10px;
+  }
+  
