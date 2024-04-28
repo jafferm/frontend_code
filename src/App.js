@@ -49,11 +49,11 @@ function App() {
   return (
     <div className="App">
       
-      <BrowserRouter basename="/frontend_code">
+      <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/clear" element={<Clear/>}/>
-        <Route path="/gradient" element={<Gradient/>}/>
+        <Route path="" element={<Home/>}/>
+        <Route path="clear" element={<Clear/>}/>
+        <Route path="gradient" element={<Gradient/>}/>
         <Route path="/test" element={<Test/>}/>
         <Route path="/function" element={<Function/>}/> 
         <Route path="/sqrt" element={<Sqrt/>}/>  
