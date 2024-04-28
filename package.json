@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": " https://jafferm.github.io/frontend_code",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@uiw/react-codemirror": "^4.21.20",
     "axios": "^1.5.1",
     "express": "^4.19.2",
+    "gh-pages": "^6.1.1",
     "mysql": "^2.18.1",
     "nodemon": "^3.1.0",
     "react": "^18.2.0",
@@ -22,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy" : "npm run build", 
+    "deploy": "gh-pages -d build", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
