@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App">
       
-      <BrowserRouter >
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/clear" element={<Clear/>}/>
